@@ -1,0 +1,108 @@
+/*---------------Item Menu (Left Side)----------------------*/
+article {
+    width: 100%;
+  background-color: whitesmoke;
+    margin-top: 20px; 
+    margin-left: 10px; 
+   
+    border-style: solid;         
+}
+p {
+    text-align: center;
+}
+h4 {
+    text-align: left;
+
+}
+tr, th, td {
+    border: 35px solid rgb(165, 161, 161);
+    
+    background-color: white;
+
+}
+main{
+    background-color:rgb(165, 161, 161);
+    padding-bottom: 20px;
+
+}
+/*---------------Right Side Menu----------------------*/
+#sideMenu {
+    display: grid;
+    grid-gap: 10px;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 20px;
+
+}
+#addMoneyForm {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr; 
+    margin: 0 auto;
+}
+
+.inputButtons {
+    margin:5px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr; 
+}
+.btn {
+    margin: 4px 4px;
+}
+#changeReturnButton {
+   
+    margin-top: 10px;
+    border-color: black;
+    background-color: #b88da5;
+  }
+  
+#changeReturnButton:hover {
+    background-color: #b88da5; 
+    color: white;
+    border-color: white;
+  }
+
+.messages {
+   
+    width: 100%;
+    border-top: solid 1px grey;
+    border-bottom: solid 1px grey;
+    padding-top: 5px;
+    padding-bottom: 5px;    
+    margin: 0 auto;
+
+}
+
+.label {
+    font-size: 24px;
+    font-size: bold;
+    /*margin: 0 auto;*/
+    text-align: center;
+}
+
+.itemLabel {
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#purchaseButton {
+    width: 100%;
+}
+/*--------------------------footer styles----------------------------*/
+footer {
+    background-color: rgb(219, 202, 202);
+    height : 100px;
+    margin-top : 10px;
+    
+}
+
+.copyright {
+    text-align: right;
+    padding: 20px;
+}
+/*----------------header---------------------------------------------------*/
+header {
+    background-color: rgb(177, 133, 171);
+    margin-bottom: 10px;
+}
+
